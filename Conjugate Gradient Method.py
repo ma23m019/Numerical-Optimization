@@ -1,10 +1,9 @@
 """
-Implement the conjugate gradient (refined version) algorithm and use to it solve linear systems
-in which A is the Hilbert matrix, whose elements are
+Implement the conjugate gradient (refined version) algorithm and use to it solve linear systems in which A is the Hilbert 
+matrix, whose elements are
                                     A(i,j) = 1 / (i + j − 1)
-Set the right-hand-side to b^T = (1, 1, . . . , 1), and the initial point to x0 = 0. Try dimensions
-n = 5, 8, 12, 20 and report the number of iterations required to reduce the residual below
-10−7.
+Set the right-hand-side to b^T = (1, 1, . . . , 1), and the initial point to x0 = 0. Try dimensions n = 5, 8, 12, 20 and 
+report the number of iterations required to reduce the residual below 10^(−7).
 """
 
 import numpy as np
